@@ -23,6 +23,5 @@ function changeImage() {
     }, transitionDuration + 20); // Allowing 20ms more for a smoother transition
 }
 
-// Call changeImage() every 5 seconds
 setInterval(changeImage, transitionDuration);
 
